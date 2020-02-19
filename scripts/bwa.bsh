@@ -1,1 +1,9 @@
-f
+
+INT=number of threads to use
+readgroup=read group for sample
+reference.fasta=genome reference fasta (hg38 for all alignments in this project)
+read1.fastq=1st pair fastq file
+read2.fastq=2nd pair fastq file
+output.sam=output same file name
+
+bwa mem -t $INT -v 3 -R "$readgroup" $reference.fasta $read1.fastq $read2.fastq > $output.sam
