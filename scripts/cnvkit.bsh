@@ -12,3 +12,6 @@
 
 # CNVkit batch for identification of CNVs with a normal (MHN) and disease (MHS) sample
 python3 ${path}/cnvkit.py batch $MHS.bam --normal $MHN.bam --targets $WEStargets.bed --fasta $reference.fasta --output-reference $outputref.cnn --output-dir $directory
+
+# CNVkit batch for identification of CNVs with a disease (MHS) sample only
+*
