@@ -1,0 +1,13 @@
+## Versions
+# snpsift version 4.3t
+
+## Variables
+# 
+
+## Cl_ann... made in following way:
+## - The snpeff file was filtered using snpSift to retrieve only stop_gained, missense, stop_lost, start_lost and frameshift mutations using the following code:
+
+#
+java -jar SnpSift.jar filter "(ANN[*].EFFECT has 'missense_variant') | (ANN[*].EFFECT has 'frameshift_variant') | (ANN[*].EFFECT has 'splice_region_variant') | (ANN[*].EFFECT has 'stop_gained') | (ANN[*].EFFECT has 'stop_lost') | (ANN[*].EFFECT has 'start_lost')" ~/MH/Cl/Cl_snpeff.vcf > ~/MH/Cl/Cl_snpeff_HIGHfunctionaleffect.vcf
+
+## - This variant file was then annotated by varAFT and filtered to get: all samples heterozygous, all variants < 0.001 AF, and only exonic and splicing variants (non-synonymous)
