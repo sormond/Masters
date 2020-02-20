@@ -1,5 +1,5 @@
 ## Versions
-# gatk version **
+# gatk version 4.1.3.0
 
 ## Variables
 # INT=number of threads to use
