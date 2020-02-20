@@ -1,6 +1,6 @@
 ## Versions
 # bwa mem version 0.7.17
-# samtools version **
+# samtools version 1.7
 
 ## Variables
 # INT=number of threads to use
