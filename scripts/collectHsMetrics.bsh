@@ -4,5 +4,11 @@
 ## Variables
 # *
 
+
+## picard BedToIntervalList for creation of picard-compatible interval files
+*
+
 ## picard CollectHsMetrics for coverage measurements
-# *
+*
+
+
