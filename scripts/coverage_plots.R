@@ -2,7 +2,7 @@
 # input is picard's CollectHsMetrics output with manually added "Year" column containing year in which WES was carried out
 
 library("ggplot2")
-cov_dataframe <- read.csv("~/family.csv", na.string = c(""), colClasses = c("character", rep(NA, 57)))
+cov_dataframe <- read.csv("~/coverage_supp_material", na.string = c(""), colClasses = c("character", rep(NA, 57)))
 
 ## mean coverage
 pdf('~/mean_cov.pdf')
