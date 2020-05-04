@@ -1,4 +1,4 @@
-# Understanding malignant hyperthermia: bioinformatic approaches to identify causative genetic variants
+# Understanding malignant hyperthermia: Bioinformatic approaches to identify pathogenic genetic variants
 
 ## Masters thesis, Shannon Ormond, 2020.
 
